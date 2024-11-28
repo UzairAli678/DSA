@@ -1,7 +1,7 @@
 public class Node {
-    String data;
+    int data;
     Node next;
-    Node(String data)
+    Node(int data)
     {
         this.data=data;
         this.next=null;
